@@ -60,12 +60,12 @@ function homepage()
         document.getElementById("Apage").innerHTML='<div title="Adi\'s Personal Page" id="heading" class="row">\
    <div class="col-xs-12">\
    <h1 class="name">ADITYA JUNNARKAR\'s PERSONAL WEBPAGE<noscript>(Please enable Javascript!!)</noscript></h1>\
-   <h2 class="name">4A Mechatronics Engineering</h2>\
+   <h2 class="name">Mechatronics Engineer, BASc, University of Waterloo</h2>\
    </div>\
    </div><div class="row">\
         <div class="home col-xs-12" style="position:relative">\
         <div class="trans" >\
-        <p>Welcome to my page!!! I am a UWaterloo co-op student currently pursuing my undergraduate degree in Mechatronics Engineering.</p>\
+        <p>Welcome to my page!!! I am a UWaterloo Alumnus graduated from the Mechatronics Engineering Cooperative Program.</p>\
         </div>\
         </div>\
         </div>';
