@@ -1,15 +1,14 @@
-/* © Copyright Adi Junnarkar
+/*© Copyright Adi Junnarkar
   Written By Adi Junnarkar */
-
 
 
 html{
 	   overflow-y: scroll;
 	  
      }
-body  {background-color:black;
-       font-family:Verdana;
-	  
+body  {     background-color:black;
+            font-family:Verdana;
+            z-index:-1;
 	   }
 
 h2,h3,h4{
@@ -19,10 +18,10 @@ h2,h3,h4{
 
 div.head{
           background-color:#181818;
-        /*  height:224px ;*/
+          /*height:224px ;*/
           
           padding:0px;
-          /*margin:0px;*/
+         /* margin:0px;*/
           }
 div.head img { float: left;
                height: 170px;
@@ -32,12 +31,12 @@ div.head img { float: left;
               }
 
 
-ul.main,ul.sub1,ul.sub2{    list-style-type: none;
-                            text-transform: uppercase;
-                            margin:0px;
-                            padding:0px;
-                            clear:left;
-                
+ul.main,ul.sub1,ul.sub2{ list-style-type: none;
+                text-transform: uppercase;
+                margin:0px;
+                padding:0px;
+                clear:left;
+   
    }
 
    
@@ -47,133 +46,131 @@ ul.main> li{float:left;
 		   /* width:238px;*/
 		    border: 1px solid black;  
             margin: 1px;
-		    height:50px;
+		    height:30px;
 		    box-shadow: 1px 1px 3px blue;
-       
+          
        }
  
- ul.sub1 li, ul.sub2 li{       height:30px;
-                           margin:0px;
-                           padding: 0px;
-                           border: 1px solid black;
-                           border-radius: 4px;
-                           position:relative;
-                           left:2px;
-                           box-shadow: 2px 2px 10px black;
-			
+ ul.sub1 li,ul.sub2 li{   height:30px;
+              margin:0px;
+			  padding: 0px;
+			  border: 1px solid black;
+			  border-radius: 4px;
+			  position:relative;
+			  left:2px;
+			  box-shadow: 2px 2px 10px black;
 			  }
- 
 
-ul.main a.main{/*width:238px;*/
-              height:50px;
-              display: block;
-              background-color:#33CCCC;
-              color:blue;
-	          font-weight:bold; 
-	          text-shadow: 1px 1px 3px blue;
-	          font-size: 15px;
-	      	  border-radius: 4px;
-			  text-decoration:none;
-	
-
+ul.main a.main{   /*  width:238px;*/
+                    height:30px;
+                    display: block;
+                    background-color:#33CCCC;
+                    color:blue;
+                    font-weight:bold; 
+                    text-shadow: 1px 1px 3px blue;
+                    font-size: 8px;
+                    border-radius: 4px;
+                    text-decoration:none;
+	         
              }
  
 ul.sub1 a.sub1{  
-                width:238px;
+                width:190px;
                 height: 30px;
-		        display:block;
-		        background-color:#a6f9f7/*#33CCCC*/;
-		        text-align:center;
-		        color:darkblue;
-		        border-radius: 4px;
-		        font-weight:bold;
-		        font-size:14px;
-                margin:0px;
-                padding:0px;	
-                text-shadow: 0 0 3px blue;
-                text-decoration:none;				
-
-		 }   
- 
-ul.sub2 a.sub2{  
-                width:264px;
-                height:35px;
 		        display:block;
 		        background-color:#a6f9f7;
 		        text-align:center;
 		        color:darkblue;
 		        border-radius: 4px;
 		        font-weight:bold;
-		        font-size:14px;
+		        font-size:8px;
                 margin:0px;
                 padding:0px;	
                 text-shadow: 0 0 3px blue;
-                text-decoration:none;
-		
-                
+                text-decoration:none;				
 		 }   
+ 
+ul.sub2 a.sub2{  
+                width:120px;
+                height: 35px;
+		        display:block;
+		        background-color:#a6f9f7;
+		        text-align:center;
+		        color:darkblue;
+		        border-radius: 4px;
+		        font-weight:bold;
+		        font-size:8px;
+                margin:0px;
+                padding:0px;	
+                text-shadow: 0 0 3px blue;
+                text-decoration:none;				
+                
+		 } 
 
 ul.main li:hover >a{    color:white!important;
                         background-color:#006699!important; 
-		
-						
 						}
 						   
 ul.main li:hover a:hover{ background-color:darkblue!important;
-                          color:white!important;
-						 
-					}						   
+                          color:white!important;}						   
 						   
 ul.main ul.sub1,ul.main ul.sub2{ display:none;
-                                 position:absolute;
-				                 top:52px;
-			                     left:-4px;
-		
+                position:absolute;
+				top:30px;
+				left:-4px;
 				}
+
 
 [title="Adi's Personal Page"]
 {
-       
-		margin-top: 10px; 
-	    background-image: url('../images/header_image.jpg');
-	    background-size: 100% 100%;
-	    background-color:#1f9dda;
-	    color:blue;
-	    text-shadow:2px 2px 2px purple;
+  
+	margin-top: 10px;
+	background-image: url('../images/header_image.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color:#1f9dda;
+	color:blue;
+	text-shadow:2px 2px 2px purple;
 	
-		border-bottom-style: inset;
-		border-bottom-color: blue;
-		border-bottom-width: 6px;
-		outline-style: groove;
-		outline-width: 4px;
-		outline-color: purple;
-		margin-bottom: 2px;
-		z-index:-1;
-        font-family: Comic Sans MS;
+	border-bottom-style: inset;
+	border-bottom-color: blue;
+	border-bottom-width: 6px;
+	outline-style: groove;
+	outline-width: 4px;
+	outline-color: purple;
+	margin-bottom: 2px;
+	z-index:-1;
+    font-family: Comic Sans MS;
 	}
 
 h1.name{     position:relative;
-             left:50px;
-			 
+             left:5px;
+			 font-size: 16px;
 			 }
 
+h2.name{    
+			 font-size: 14px;
+			 }
+			 
 [title="Adi's Personal Page"]  h2{
-                                    position:relative;
-                                    left:50px;   
+	                      position:relative;
+						  left:50px;   
 	
                }
-.home{ 
+			   
+.home{     
 	background-image: url('../images/coverpic.JPG');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 250px;
 }
-
+			   }
 div.trans{ position: absolute;
            bottom:0px;
 		   background-color: #3366CC;
-		   height:90px;
+		   height:120px;
 		   opacity:0.7;
+		   filter:alpha(opacity=70);
 		   padding:3px 0px 3px 0px;
 		   text-align:center;
 		   color:black;
@@ -181,6 +178,7 @@ div.trans{ position: absolute;
 		   }
 
 div.trans:hover{  opacity:1;
+                  filter:alpha(opacity=100);  /*For IE8 or Earlier */
                   background-color:lightBlue;
 				  color:blue;
 				  font-weight:bold;
@@ -207,7 +205,7 @@ div.author p{   color:#101010;
 p{
    font-variant:small-caps;
    font-weight:bold;
-   font-size: 18px;
+   font-size: 15px;
    
 }
 
@@ -222,62 +220,98 @@ span.para{
           margin-right: 2px;
          
 		 }
-
-                 #blog{
-                     background:  url('../images/myblog.png') no-repeat 8px 0px ;
-                     height: 114px;
-                     width: 282px;
-                     -webkit-transition: background 0.1s linear;
-                     -moz-transition: background 0.18s linear;
-                     overflow: hidden;
-                     -webkit-border-radius: 12px;
-                     -moz-border-radius: 12px;
-                     border-radius: 12px;
-                     border-color:red;
-                     border: 2px;
-                     padding: 0px;
-                     margin: 4px 4px 7px 4px;;
-                 }
+                 
+#blog{
+        background:  url('../images/myblog.png') no-repeat 8px 0px ;
+        height: 114px;
+        width: 282px;
+        -webkit-transition: background 0.1s linear;
+        -moz-transition: background 0.18s linear;
+        overflow: hidden;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        border-color:red;
+        border: 2px;
+        padding: 0px;
+        margin: 4px 4px 7px 4px;
+	}
                  
 #blog:hover{
                      background: url('../images/myblog.png') repeat-y 7px 100.5px ;
                      border-color: blueviolet;
                  }
-div.blog{   color: #104E8B;//#25928e;
-            font-variant:small-caps;
-            background-image: url('../images/bluered.jpg') ;
-            background-size: 100% 100%;
-            padding-top: 15px;
+
+div.blog{ color:#25928e;
+		  font-variant:small-caps;
+		  background-image: url('../images/blog_background.jpg');
+		  background-size: 100% 100%;
+		  padding-top: 15px;
           }
 
 div.blog p{
-           /* position:relative;
-            left:40px;
-            width: 590px;*/
-            font-weight: 600;
-            font-size: 16px;
-            color: #071E76;
-            font-variant: normal;
-            line-height: 1.3em;
+             /*position:relative;
+			 left:40px;
+			 width: 590px;*/
+			 font-size: 14px;
 			 }
-			 
+
+.oweekleader {
+    background: url('../images/Orientation_2.jpg') no-repeat;
+    background-size:100% 100%;
+    width:150px;
+    height:150px;
+
+}   
+
+.kwmf{
+    background: url('../images/KWMFDance.jpg') no-repeat;
+    background-size:100% 100%;
+   /* width:400px;*/
+    height:300px;
+}
+
+.tiva{
+
+    background: url('../images/TITiva.jpg') no-repeat;
+    background-size:100% 100%;
+    /*width:400px;*/
+    height:200px;
+} 
+	
+.coop{
+    background: url('http://www.edgeip.com/fckupload/Image/SIC/Spring%202012/Waterloo%20-%20co-op%20interviews.jpg') no-repeat;
+    background-size:100% 100%;
+    /*width:400px;*/
+    height:200px;
+} 
+	
+.dubai{
+        background: url('../images/collage.jpg') no-repeat;
+        background-size:100% 100%;
+       /*width:400px;*/
+       height:200px;
+
+}
+	
 div.blog h3{ color: blue;
-             margin-bottom: 0px;}			 
+             margin-bottom: 0px;
+			 font-size: 18px;}	
 
 div.blog h5{
-	          position:relative;
-			  margin-top:0px;
-			  left:10px;
-			  color:blue;
+	          position: relative;
+			  margin-top: 0px;
+			  left: 10px;
+			  color: blue;
            }		 
 
-div.blog h5+p:first-letter{ color:blue; 
+div.blog h5+p:first-letter{ color: blue; 
                             font-size: 30px;      
                      				                /*h5~p selects all p after h5 */
                            }
-					
+                           
 .post {      
-        /*width: 700px;*/
+        /*width: 500px;*/
         padding:10px;
         border-radius: 15px 13px;
         -moz-border-radius: 15px 13px;
@@ -285,57 +319,20 @@ div.blog h5+p:first-letter{ color:blue;
         background-color:#67C8FF;
         border: 3px solid #E20000;
         margin-bottom: 5px;
-      }               
-	  
-.oweekleader {
-    background: url('../images/Orientation_2.jpg') no-repeat;
-    background-size:100% 100%;
-    /*width:400px;*/
-    height:300px;
+                             
+                         }
 
-}   
-  
-.kwmf{
-    background: url('../images/KWMFDance.jpg') no-repeat;
-    background-size:100% 100%;
-   /* width:400px;*/
-    height:300px;
-
-}
-
-.tiva{
-    background: url('../images/TITiva.jpg') no-repeat;
-    background-size:100% 100%;
-    width:50%;
-    height:300px;
-}  
-
-.coop{
-    background: url('http://www.edgeip.com/fckupload/Image/SIC/Spring%202012/Waterloo%20-%20co-op%20interviews.jpg') no-repeat;
-    background-size:100% 100%;
-    /*width:400px;*/
-    height:400px;
-} 
-
-.dubai{
-        background: url('../images/collage.jpg') no-repeat;
-        background-size:100% 100%;
-       /*width:400px;*/
-       height:400px;
-
-}
 img.dubai{
 	      position:absolute;
-		  /*top:1520px;*/
+		/*  top:1720px;*/
 		  right:10px
                }					
 
 img.toronto {
 	               position:absolute;
-				/*   top:1670px; */
+				  // top:1870px; 
 				   right:10px;
-                              }
-
+                                   }
 
 span.d{  font-style:italic;
          color:blue;
@@ -343,47 +340,41 @@ span.d{  font-style:italic;
          white-space:pre-wrap;	   
 	   }
 
-div.Img_gall{   background: url('../images/silver.jpg'); 
+div.Img_gall{ 
+                background: url('../images/silver.jpg');
                 background-size: 100% 100%;
                 background-color: #4EDDE9; 
-                /*height: 1400px;
-                width:1200px;*/
-                padding:35px;
+                /*height: 1400px;*/
+                /*width:1200px;*/
+                padding:25px;
                 margin-top:4px;
-                
+               
 			  }	
 
-#ImgGallery{ 
-             font-size:35px;
-             font-weight: bold;
-             height: 41px;
-             width: 334px;
-             margin-top:2px;
-			 color:#2E2E2E;
+h2#ImgGallery{ color:#3300FF;
                   }			  
 			  
-div.Img_gall p{ 
-				 color:#2E2E2E;
-                }
+div.Img_gall p{  
+				color:#2E2E2E;
+				}
 	   
-div.square{     background-color:white;//rgba(0, 0, 0 ,0.94);
+div.square{      background-color:white;
                 z-index:2;
                 height:142px;
                 width:142px;
-                max-width: 100%;
                 margin:auto;
                 margin-top:5px;
                 border:1px solid black;
 				
 				}
 
-div.img img{     display:inline;
+div.img img{    display:inline;
                 height:140px;
-                width:140px;
-                max-width: 100%;
+                width:140px;				
                 margin:0px;
                	border: 2px solid black;
                 opacity:0.5;
+                filter:alpha(opacity=50);
                 -moz-opacity:0.5;
 			
 				}
@@ -401,77 +392,61 @@ div.img	{   margin:5px;
 
 div.img a.image:hover img{  border:3px solid #300000;
                             height:160px;
-			    width:160px;
-                            padding: 0px;
+                            width:160px;
                             opacity:1;
-			    position:relative;
-	                    left:-3px;
-		            top:-2px;  
-			    margin: auto;			
-                            } 			
+                            filter:alpha(opacity=100);  /*For IE8 and Earlier */
+                            position:relative;
+                            left:-11px;
+                            top:-2px;  
+							
+                            
+							} 			
 			
 div.desc{    text-align:center;
              font-family:Times New Roman;
              width:160px;
+             margin:2px;
              text-decoration:underline;
              position:relative;
              top:20px;	
 			 
-             		 }
+             		 }		
 
 div.Projects{ 
-               padding:35px;
-	           background: url('../images/black.jpg'); 
-               background-size: 100% 100%;
-               color:red;
-			   }
-
-div.Projects p{         
-                      /*width: 1090px*/
-                      font-weight: normal;
-                      font-variant: normal;
-					  /*margin-left:20px;*/
+               padding:25px;
+			   background: url('../images/black.jpg');
+			   background-size: 100% 100%;
+			   color:red;
 			   }
 
 
-#MyProjects{   
-                font-size: 35px;
-				font-weight: bold;
-                height: 48px;
-                width: 293px;
-                margin: 5px;
-                color:red;               
-                           }
 			                    
+h2#Projects{   color:#320953;
+	           text-decoration: underline;
+}	 
+
 div.Tron_Projects{ 
-                padding:6px;
-                background: url('../images/black.jpg'); 
-                background-size: 100% 100%;
-                color:red;
-			   }
+               padding:6px;
+			   background: url('../images/black.jpg');
+			   background-size: 100% 100%;
+			   color:red;
+			   }			 
 
-div.Tron_Projects p{  
-                      font-variant: normal;
-                      font-weight: normal;
-			   }	
-			   
-h2#Tron_Projects{
-	             color:red;
-				 font-weight:35px;
-}			 
-
+h2#Tron_Projects{   color:red;
+	
+}	 
 			   
 span.vendbot{
-                font-size:70px;
-                font-family:Verdana;
-                width: 0.9em;
-                float:left;
-                line-height:80%;
-                color:red;
-                border-style:solid;
-                border-color:darkred;
-                font-weight:normal;
-                margin-right:2px;
+             font-size:70px;
+             font-family:Verdana;
+             width: 0.9em;
+             float:left;
+             line-height:80%;
+             color:red;
+             border-style:solid;
+             border-color:darkred;
+			 font-weight:normal;
+			 margin-right:2px;
 			 }
 
 div.Vimg{
@@ -486,7 +461,8 @@ div.Vimg{
 		   
 img.vbot:hover{
                   border:4px solid rgb(0,0,50);
-				  outline: 2px solid lightBlue;}
+                 outline: 2px solid lightBlue;}
+
 div.Vdesc{
              clear:left;
              position:relative;
@@ -495,29 +471,25 @@ div.Vdesc{
 			 padding:3px;
 			 font-weight:bold;
 			 text-decoration: underline;
-              }	
-              
+              }			 
 div.Contact{
                
-                background-color:#202020;
-                padding: 8px;
-                /*height: 430px;*/
-                /*width:1200px;*/
-             
-				}
+			   background-color:#202020;
+			   padding: 8px;
+			   /*height: 420px;*/
+			   /*width:1200px;*/
+			   color:darkBlue;}
 
 #ContactMe{
           color:white;
-          height:78px;
           margin: 3px;
 		  padding-left:30px;
-		  font-size: 40px;
-          
+		  font-size: 20px;
+          padding-bottom:15px;
 }
-
 div.card{ 
-          min-width:375px;
-		  margin-left:45px;
+          min-width:310px;
+		  margin-left:20px;
 		  padding: 16px;
           width: 45%;
 		  /*height: 270px;*/
@@ -527,6 +499,7 @@ div.card{
 		  outline-width: 4px;
 		  background: url('../images/blackcontact.jpg');
 		  background-size: 100% 100%;
+		  font-size: 8px;
 		  font-weight: bold;
 		  /*position:relative;
 		  left: 50px;*/
@@ -541,14 +514,15 @@ div.linkedin a{
 				 background-color: #606060; //#33CCFF;
 				 color:white;//darkBlue;
 				 border: 2px solid #202020;
-				 /*box-shadow: 0 0 30px #330066;*/
+				/* box-shadow: 0 0 30px #330066;*/
 				 
 				 }
 div.linkedin a:hover{  background-color: #404040;    }
 
 .waterlooemail{
-         margin-left: 20px;
-
+		 margin-top: 20px;
+		 margin-left:0px;
+		 
 }
 
 div.waterlooemail a{
@@ -572,10 +546,9 @@ div.linkedin div, div.waterlooemail div{    width:65px;
                                             text-align:center; 
                                             vertical-align:middle;
                                             padding:4px;
-}
-											
+}									
 footer p{
-                 font-size:14px;
-		 text-align: center;
-		 font-family: Arial;
+	   font-size: 14px;
+	   text-align: center;
+	   font-family: Arial;
 }
