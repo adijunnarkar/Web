@@ -649,10 +649,10 @@ function contactpage()
 	<div class="col-xs-12">\
     </h2><div class="card" id="card"><p><span style="text-align:right; color:grey">\
 Name: </span>Aditya Junnarkar</p><p><span style="text-align:right; color:grey">\
-Education: </span>Candidate for B.A.Sc University Of Waterloo, ON</p>\
+Education: </span>Mechatronics Engineer, B.A.Sc University Of Waterloo, ON</p>\
 <p><span style="text-align:right; color:grey">Mobile Number:</span> +1 226&shy;-600-3433\
 </p>\
-<p><span style="text-align:right; color:grey">Residence:</span> 201, Lester Street, Waterloo, ON</p>\n\
+<p><span style="text-align:right; color:grey">Residence:</span> 339 King St N, Waterloo, ON</p>\n\
 <div class="linkedin" style="display:inline-block;">\
 <a href="http://ca.linkedin.com/pub/aditya-junnarkar/52/308/4a4" target="_blank"\
  title="Click to go to my LinkedIn profile"><div>Connect Via  </div>\
