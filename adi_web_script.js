@@ -94,9 +94,9 @@ function aboutpage()
   </div>\
   <div class="row">\
   <div class="col-xs-12">\
-  <p><span class="para"> I </span> am a candidate for Bachelor of Applied Science(B.A.Sc),\
-   Mechatronics Engineering (Co-op) program at University Of Waterloo, Ontario Canada, \
-   currently in my 4B term. I was born in India on 28th April, 1994 and immigrated to Dubai with \
+  <p><span class="para"> I </span> graduated with Bachelor of Applied Science(B.A.Sc) degree in,\
+   Mechatronics Engineering (Co-op) from University Of Waterloo, Ontario Canada in 2017.\
+   I was born in India on 28th April, 1994 and immigrated to Dubai with \
    my family when I was 6. I studied in Our Own High School Al Warqa\'a(previously called "Our Own \
    English High School, Dubai") a school based on the Central Board Of Secondry Education(CBSE) \
    Curriculum. Due to my avid interest in Science, I took the Science with Computer Science stream after \
@@ -130,8 +130,8 @@ in life should not make you weaker, only much stronger.. </p>\
   <div class="row">\
   <div class="col-xs-12">\
   <h3 style="color:#101010"><b><u>MY CAREER GOALS</u></b></h3><p>Being a mechatronics \
-co-op student, I hope to get hands-on experience in a variety of different fields related to software,\
- hardware, electrical and mechanical engineering.</p>\
+engineer, having gained hands-on experience in a variety of different fields related to software,\
+ hardware, electrical  and mechanical engineering, I have realized my passion for embedded systems, image processing, hardware designing and software development.</p>\
  </div>\
   </div>\</div>\
   ';
