@@ -523,7 +523,8 @@ function projectpage()
     Our bridge had a load to mass ratio of around 300 after failure which was pretty good. Last summer, I bought a Texas Instruments Tiva C Series launchpad microcontroller based on the ARM Cortex M4 architecture. I used the IAR Embedded\
     Workbench IDE to program the microcontroller, analysing the ARM assembly code generated in the debugging view. The coolest thing I\'ve got the launchpad to do is blinking the RGB led! Yeah!</p><p>2B had the most projects. We used Matlab to simulate the behaviour of safety net after a man falls on it using finite Element Analysis.\
 	We also built a line following robot and did some cool digital signal processing with music files. In 3A, I learnt to interface with an embedded audio system using different synchronization techniques. During my 3A co-op I worked on a Raspeberry Pi\
-	infra-red motion sensor system. Pictures can be found under the mechatronics section!</p><p>Well, this is only the beginning, there is a long way to\
+	infra-red motion sensor system. Pictures can be found under the mechatronics section! In my final year I worked in the same Altera environment, but this time worked on a multi-core simplified MJPEG video decoder. I read the .mpg files from an SD card and played the videos on an HDMI display.\
+	I also worked with the STM32 microcontroller to interface it with IMU sensors using SPI communication interface. My most interesting project was a smart belt called OmniNav which I developed along with my team to assist the visually impaired population. More information about this can be found on http://omninavtech.com/.</p><p>Well, this is only the beginning, there is a long way to\
     go and lots of projects to work on. Will keep this page updated with new projects.</p>\
     </div>\
 	</div></div>';
